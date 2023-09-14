@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalIndex
+  SavedSource="file:///C:/Users/RachelDillon/Desktop/London/Output/RachelDillon/Temporary/GlobalIndex v.6.catapultindex">
+  <IndexEntry>
+    <Entries />
+    <Links />
+    <SeeAlsoLinks />
+    <IndexControlLinks />
+    <SortAsLinks />
+  </IndexEntry>
+  <SourceUrls>
+    <Url
+      Source="Home.htm" />
+    <Url
+      Source="Locations/BoroughMarket.htm" />
+    <Url
+      Source="Locations/GoldenHinde.htm" />
+    <Url
+      Source="Locations/HMSBelfast.htm" />
+    <Url
+      Source="Locations/HousesofParliament.htm" />
+    <Url
+      Source="Locations/LondonAmphitheatre.htm" />
+    <Url
+      Source="Locations/LondonMithraeum.htm" />
+    <Url
+      Source="Locations/Monument.htm" />
+    <Url
+      Source="Locations/ShakespearesGlobe.htm" />
+    <Url
+      Source="Locations/SouthwarkCathedral.htm" />
+    <Url
+      Source="Locations/TheNavigators.htm" />
+    <Url
+      Source="Locations/TransportMuseum.htm" />
+    <Url
+      Source="Locations/WarMuseum.htm" />
+    <Url
+      Source="Locations/WinchesterCathedral.htm" />
+    <Url
+      Source="Other/Map2.htm" />
+    <Url
+      Source="Resources/Images/government.png" />
+    <Url
+      Source="Resources/Images/LondonMap.png" />
+    <Url
+      Source="Resources/Images/market.png" />
+    <Url
+      Source="Resources/Images/Minus.png" />
+    <Url
+      Source="Resources/Images/museum.png" />
+    <Url
+      Source="Resources/Images/Plus.png" />
+    <Url
+      Source="Resources/Images/train-station.png" />
+    <Url
+      Source="Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Resources/TableStyles/Alternate-Row-Color.css" />
+    <Url
+      Source="Resources/TemplatePages/Home-Page.flmsp" />
+    <Url
+      Source="Resources/TemplatePages/Other-Topics.flmsp" />
+    <Url
+      Source="Stations/Bank.htm" />
+    <Url
+      Source="Stations/Blackfriars.htm" />
+    <Url
+      Source="Stations/BoroughStation.htm" />
+    <Url
+      Source="Stations/CannonStreet.htm" />
+    <Url
+      Source="Stations/CharingCross.htm" />
+    <Url
+      Source="Stations/CoventGarden.htm" />
+    <Url
+      Source="Stations/ElephantandCastle.htm" />
+    <Url
+      Source="Stations/LeicesterSquare.htm" />
+    <Url
+      Source="Stations/LondonBridge.htm" />
+    <Url
+      Source="Stations/MonumentTube.htm" />
+    <Url
+      Source="Stations/StPauls.htm" />
+    <Url
+      Source="Stations/Waterloo.htm" />
+    <Url
+      Source="Stations/WaterlooEast.htm" />
+  </SourceUrls>
+  <SourceLinkSetUrls />
+  <UsedUrls />
+  <UsedIndexControlUrls />
+</CatapultGlobalIndex>

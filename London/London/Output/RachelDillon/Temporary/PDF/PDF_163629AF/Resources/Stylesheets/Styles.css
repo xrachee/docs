@@ -1,0 +1,787 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+:root
+{
+	--Brand1: #076685;
+	--Brand2: #CDE0E7;
+	--Dark: #45494c;
+	--Medium: #b9bec1;
+	--Light: #d0d3d5;
+	--White: #ffffff;
+}
+
+body
+{
+	color: var(--Dark);
+	font-family: Arial, Avenir, Myriad;
+}
+
+/* Content */
+
+img
+{
+	border: none;
+	max-width: 100%;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25px;
+}
+
+p.table-text
+{
+	font-size: 12pt;
+}
+
+/* Generic classes */
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+/* Headings */
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	margin-top: 0;
+	color: var(--Brand1);
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+/* Home page topic */
+
+.nav-search	/*Does not display search in Top Navigation for desktop*/
+{
+	display: none;
+}
+
+div.accent
+{
+	background-color: var(--Brand2);
+}
+
+div.home-layout
+{
+	padding: 2% 20%;
+}
+
+div.home-section
+{
+	padding: 5%;
+	border-bottom: solid 1px var(--Light);
+}
+
+div.home-section:last-of-type
+{
+	border-bottom: none;
+}
+
+div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.quick-links::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.quick-links::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.quick-links > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.quick-links > div:nth-child(1)
+{
+	width: 16.66666%;
+	margin-left: 2%;
+}
+
+div.quick-links > div:nth-child(2)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(3)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(4)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(5)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
+{
+	text-align: center;
+}
+
+div.topic-hero
+{
+	padding: 8% 0;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+div.topic-hero h1
+{
+	color: var(--White);
+	font-size: 48pt;
+	text-align: center;
+}
+
+html.home-topic	/*Used on Home.htm topic for styles set only on the home topic*/
+{
+	
+}
+
+html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+img.home-tile
+{
+	max-width: 50%;
+}
+
+/* Links */
+
+a
+{
+	color: var(--Brand1);
+}
+
+a:link
+{
+	color: var(--Brand1);
+}
+
+a:visited
+{
+	color: var(--Brand1);
+}
+
+a.home-tiles
+{
+	color: var(--Dark);
+	font-size: 13pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+MadCap|dropDown
+{
+	border-bottom: 1px solid var(--Light);
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	mc-open-image: url('../Images/Minus.png');
+	mc-closed-image: url('../Images/Plus.png');
+	padding: 10px 0;
+}
+
+MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	color: var(--Dark);
+	font-size: 20pt;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+MadCap|expandingBody
+{
+	color: var(--Dark);
+	font-style: italic;
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: var(--Brand1);
+}
+
+MadCap|xref
+{
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+	color: var(--Brand1);
+}
+
+/* Lists */
+
+dd,
+dd p,
+dt,
+dt p,
+li,
+li p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+dl,
+ol,
+ul
+{
+	letter-spacing: .25px;
+	line-height: 20pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Master pages */
+
+div.home-footer
+{
+	padding: 2% 5%;
+	background-color: var(--Brand1);
+}
+
+div.side-content	/*Used on OtherTopics.flmsp for the search-bar and menu*/
+{
+	width: 300px;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+div.topic-layout
+{
+	padding-top: 4%;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: var(--Dark);
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: var(--White);
+}
+
+p.footer-sub
+{
+	color: var(--White);
+	font-size: 14pt;
+	margin-top: 14px;
+}
+
+/* Map CSS */
+
+body.map,
+a.map
+{
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+#map-container
+{
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.marker
+{
+	position: absolute;
+	cursor: pointer;
+}
+
+/* trainstation markers */
+
+.coventgarden
+{
+	left: 8.2%;
+	top: 12.7%;
+}
+
+.borough
+{
+	left: 68.8%;
+	top: 63.5%;
+}
+
+.londonbridge
+{
+	left: 85.2%;
+	top: 49.7%;
+}
+
+.elephant
+{
+	left: 58.7%;
+	top: 94.4%;
+}
+
+.waterloo
+{
+	left: 30.6%;
+	top: 56.3%;
+}
+
+.waterlooeast
+{
+	left: 38.5%;
+	top: 50.8%;
+}
+
+.blackfriars
+{
+	left: 49.5%;
+	top: 25.3%;
+}
+
+.cannonstreet
+{
+	left: 74.9%;
+	top: 21%;
+}
+
+.bank
+{
+	left: 78%;
+	top: 11%;
+}
+
+.stpauls
+{
+	left: 60.7%;
+	top: 4%;
+}
+
+.charingcross
+{
+	left: 8.1%;
+	top: 35.4%;
+}
+
+.leicestersquare
+{
+	left: -0.1%;
+	top: 20.3%;
+}
+
+.monumenttube
+{
+	left: 83.6%;
+	top: 21.8%;
+}
+
+/* museums */
+
+.transportmuseum
+{
+	left: 14%;
+	top: 15.9%;
+}
+
+.mithras
+{
+	left: 74.6%;
+	top: 14%;
+}
+
+.amphitheatre
+{
+	left: 72.8%;
+	top: 0.8%;
+}
+
+.winchester
+{
+	left: 72.2%;
+	top: 37.6%;
+}
+
+.navigators
+{
+	left: 89%;
+	top: 42.4%;
+}
+
+.hinde
+{
+	left: 75.3%;
+	top: 37.8%;
+}
+
+.warmuseum
+{
+	left: 39.1%;
+	top: 84.6%;
+}
+
+.themonument
+{
+	left: 84%;
+	top: 25%;
+}
+
+.belfast
+{
+	left: 93.5%;
+	top: 39.5%;
+}
+
+.cathedral
+{
+	left: 76.5%;
+	top: 41.5%;
+}
+
+.globe
+{
+	left: 61.7%;
+	top: 32.8%;
+}
+
+.parliament
+{
+	left: 7%;
+	top: 68.7%;
+}
+
+.boroughmarket
+{
+	left: 75.3%;
+	top: 45%;
+}
+
+.icon
+{
+	max-width: 25px;
+	max-height: auto;
+	position: absolute;
+}
+
+.tooltip
+{
+	display: none;
+	position: absolute;
+	background-color: rgba(255,255,255,0.9);
+	color: white;
+	padding: 5px;
+	border-radius: 4px;
+	/* border: 1px solid black; */
+	font-size: 14px;
+	z-index: 1;
+	white-space: nowrap;
+	/* Position the tooltip above the icon */
+	bottom: 100%;
+	/* Adjust this value to control the gap between icon and tooltip */
+	left: 50%;
+	transform: translateX(-30%);
+}
+
+.tooltip span
+{
+	display: block;
+	text-align: center;
+}
+
+.marker:hover .tooltip
+{
+	display: block;
+}
+
+MadCap|xref
+{
+	font-weight: normal;
+	mc-format: '{quote}{para}{quote} {pageref}';
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	/* Home page topic */
+
+	.nav-search	/*Displays search in Top Navigation for tablet/mobile*/
+	{
+		display: block;
+	}
+
+	div.side-content	/*Removes search-bar and menu set in topic in tablet*/
+	{
+		display: none;
+	}
+
+	html.home-topic .nav-search	/*Will not display search in Top Navigation on home page*/
+	{
+		display: none;
+	}
+
+	html.home-topic .body-container
+	{
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 24%;
+		margin-left: 0%;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 24%;
+		margin-left: 19%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	/* Home page topic */
+
+	div.home-layout
+	{
+		padding: 2% 5%;
+	}
+
+	div.home-section
+	{
+		padding: 10% 0;
+	}
+
+	img.home-tile
+	{
+		max-width: 25%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 49%;
+		margin-left: 25.5%;
+	}
+
+	div.topic-hero
+	{
+		padding: 15% 0;
+	}
+
+	div.topic-hero h1
+	{
+		font-size: 36pt;
+	}
+}
+
+@media print
+{
+	/* Links */
+
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+}
+
