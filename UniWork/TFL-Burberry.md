@@ -1,5 +1,7 @@
 # User Experience and the Physical World
 
+*COMPARE TO HACKNEY DIAMONDS TAKEOVER*
+
 When I first started thinking of user experience (UX), research and design, I had a very narrow view of it being for human-computer interactions. Software, websites and things like that. Then I decided to start looking at the wider world, and came to realise that UX is very much applicable to the physical world.
 
 Being a Londoner (albeit living in the West Country now), I stumbled across an article regarding TfL (Transport for London) temporarily renaming Bond Street to Burberry Street for London Fashion Week 2023. [This is one of the many articles on it](https://secretldn.com/burberry-street-bond-street/). The change happens from 15th September to 19th September.
