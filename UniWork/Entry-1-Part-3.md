@@ -13,9 +13,19 @@ So before I could start finding a tool that did what the company wanted, I neede
 8. Optional. Comments and feedback available to give in the wiki. From an analytics point of view, this would be good. It would allow us to see how the wiki is being used, and by being able to give feedback on any given page, people can see and learn how useful the information is.
 
 
-- Docusaurus
+- [Docusaurus](https://docusaurus.io/)
+
+So Docusaurus was one of the first tools I considered as an alternative to wiki.js. Created by Meta (formally known as Facebook), it's an open source, static site generator. Docusaurus builds a single-page application, using React to make the site interactive. In order to use it, you need to install [Node.js](Nodejs.org). Many big companies use Docusaurus to build their website. It's a very user-friendly interface, 
+
 - MKDocs
 - Gitbook
 - Astro
 - Gatsby
 - Hugo
+
+Utilise Git submodules?
+
+headless cms separates content from presentation (website). why? content tangled with code. 
+
+*Sources*
+- [Docusaurus Documentation](https://docusaurus.io/docs)
